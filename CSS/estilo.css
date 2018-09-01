@@ -1,0 +1,57 @@
+body {
+    width: 100%;
+    float: left;
+  }
+#admin{
+    float: right;
+    background-color: darkgrey;
+}
+.foto{
+    padding-top: 1%;
+}
+.foto,
+.info,
+.botones{
+    width: 33.33%;
+    height: 85%;
+    float: left;
+    text-align: center;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.b1,
+.b2,
+.b3,
+.b4,
+.b5{
+    
+    width: 50%;
+    height: 20%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    
+    padding: 2%
+}
+h1{
+    text-align: center;
+}
+.user{
+    text-align: center;
+}
+.ingreso{
+    float:right;
+    padding: 2%;
+}
+@media screen and (max-width:800px){
+    .foto, .info, .botones{
+        width: 100%;
+    }
+}
+.nombres{
+    float:left;
+}
