@@ -3,42 +3,59 @@
     <head>
         <meta name="viewport" content="width= device-width, initial-scale=1">
         <title>Bicitaxis</title>
-        <script src="./JavaScript/script.js"></script>
-        <link rel="stylesheet" href="./CSS/estilo.css">
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <h1>BICITAXIS</h1>
-            <p class="user">Administrador</p>
+            <div class="container p-5 text-center bg-info">
+                <h1>BICITAXIS</h1>
+                <p class="user">Administrador</p>
+            </div>
         </header>
-        <div class="foto" >
-            <img src="./Imagenes/bici.png" alt="bicitaxi" class="center" >
-        </div>
-        <div class="info">
-            <h3>Nombre: <input type="text" value="Pepito"></h3>
-            <br>
-            <h3>Identificación: <input type="text" value="#####" disabled class="ingreso"></h3>
-            <br>
-            <h3>Seguridad Social: <input type="text" value="EPS" disabled class="ingreso"></h3>
-            <br>
-            <h3>Numero de Bicitaxi: <input type="text" value="####" class="ingreso"></h3>
-        </div>
-        <div class="botones">
-                <button class="b1">Buscar</button>
+
+        <div class="row center align-items-center">
+            <div class="content p-5 bg-danger"  width="80%" height="80%">
+                <img src="Imagenes/bici.png" alt="bicitaxi" class="center" width="100px" height="30%">
+            </div>
+            <div class="center col-4 pt-3 bg-warning">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Nombre:</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Identificación:</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Seguridad Social:</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Numero de Bicitaxi:</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="content p-3 bg-info border rounded">
+                    <button class="btn btn-outline-warning">Buscar</button>
+                    <button class="btn btn-outline-warning">Reportar</button>
+                    <button class="btn btn-outline-warning">Agregar</button>
+                    <button class="btn btn-outline-warning">Editar</button>
+                    <button class="btn btn-outline-warning">Borrar</button>
+                </div>
+            </div>
             
-                <button class="b2">Reportar</button>
-                
-                <button class="b3">Agregar</button>
-                
-                <button class="b4">Editar</button>
-                
-                <button class="b5">Borrar</button>
+
+        
         </div>
-
-        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
-
     </body>
 </html>
